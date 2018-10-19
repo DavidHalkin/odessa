@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $(".btn_menu_js").click(function(){
+        $(".sidebar_js").toggleClass("active");
+         $("body").toggleClass("opened_menu");
+    });
+     $(".btn_close_js").click(function(){
+        $(".sidebar_js").toggleClass("active");
+        $("body").toggleClass("opened_menu");
+    });
+});
