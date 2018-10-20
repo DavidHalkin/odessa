@@ -194,6 +194,14 @@ body{
 	line-height: 16px;
 	li{
 		margin-top: 20px;
+		padding-left: 40px;
+		position: relative;
+		i{
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 16px;
+		}
 	}
 	.fb{
 		a{
@@ -380,6 +388,12 @@ h1{
 		}
 	}
 }
+p.address{
+	padding-left: 40px;
+	@media screen and (max-width: 600px){
+		padding-left: 0;
+	}
+}
 .contact_list{
 	margin: 0;
 	padding: 0 0 10px 0;
@@ -389,6 +403,17 @@ h1{
 	color: #000;
 	li{
 		margin-bottom: 33px;
+		padding-left: 40px;
+		position: relative;
+		i{
+			font-size: 16px;
+			font-size: 20px;
+			color: #019875;
+			position: absolute;
+			top: 50%;
+			transform:translateY(-50%);
+			left: 0;
+		}
 	}
 	a{
 		color: #000;
