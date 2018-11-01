@@ -431,3 +431,56 @@ p.address{
 		}
 	}
 }
+.owl-theme {
+  .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+    [class*='owl-'] {
+      transition: all .3s ease;
+      &.disabled:hover {
+       background-color: #D6D6D6;
+      }   
+    }
+    
+  }
+}
+
+//arrows on first carousel
+#sync1.owl-theme {
+  position: relative;
+  .owl-next, .owl-prev {
+    width: 30px;
+    height: 100%;
+    // margin-top: -20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    background: #fff;
+    border-radius: 0;
+    opacity: .5;
+  }
+  .owl-prev {
+   left: 0;
+  }
+  .owl-next {
+    right: 0;
+  }
+  .owl-nav{
+  	svg{
+		width: 20px;
+		display: block;
+		margin: 0 auto;
+  	}
+  }
+}
+#sync2 {
+	.item{
+		padding: 2px;
+	}
+	.owl-item{
+		border: 2px solid #fff;
+	}
+	.current {
+		border-color: #019875;
+	}
+}

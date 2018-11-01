@@ -855,4 +855,63 @@ p.address {
   color: #019875;
 }
 
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+
+#sync1.owl-theme {
+  position: relative;
+}
+
+#sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
+  width: 30px;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #fff;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  opacity: .5;
+}
+
+#sync1.owl-theme .owl-prev {
+  left: 0;
+}
+
+#sync1.owl-theme .owl-next {
+  right: 0;
+}
+
+#sync1.owl-theme .owl-nav svg {
+  width: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+#sync2 .item {
+  padding: 2px;
+}
+
+#sync2 .owl-item {
+  border: 2px solid #fff;
+}
+
+#sync2 .current {
+  border-color: #019875;
+}
+
 /*# sourceMappingURL=all.css.map */

@@ -108,7 +108,7 @@ gulp.task('sftp', function () {
 gulp.task('scripts', function() {
 	return gulp.src([ // Берем все необходимые библиотеки
 		'bower_components/jquery/dist/jquery.min.js',
-		// 'bower_components/jcf/dist/js/jcf.js',
+		'bower_components/owl.carousel/dist/owl.carousel.min.js',
 		// 'bower_components/jcf/dist/js/jcf.select.js',
 		// 'bower_components/jquery-ui/jquery-ui.min.js'
 		])
@@ -121,7 +121,8 @@ gulp.task('scripts', function() {
 //библиотеки css
 gulp.task('css-libs', ['sass'], function() {
 	return gulp.src([ // Берем все необходимые библиотеки
-		// 'bower_components/jcf/css/theme-minimal/jcf.css',
+		'bower_components/owl.carousel/dist/assets/owl.carousel.min.css',
+		'bower_components/owl.carousel/dist/assets/owl.theme.default.css',
 		// 'bower_components/jquery-ui/themes/base/core.css',
 		// 'bower_components/jquery-ui/themes/base/datepicker.css'
 		])
