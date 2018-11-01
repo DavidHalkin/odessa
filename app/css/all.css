@@ -873,6 +873,14 @@ p.address {
   position: relative;
 }
 
+#sync1.owl-theme img {
+  width: auto !important;
+  max-width: 100% !important;
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
 #sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
   width: 30px;
   height: 100%;
@@ -904,10 +912,27 @@ p.address {
 
 #sync2 .item {
   padding: 2px;
+  height: 102px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+#sync2 .item img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  max-width: 100%;
+  width: auto !important;
+  max-height: 100%;
 }
 
 #sync2 .owl-item {
   border: 2px solid #fff;
+  padding: 2px;
 }
 
 #sync2 .current {

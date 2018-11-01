@@ -18,7 +18,7 @@ $(document).ready(function(){
     items : 1,
     slideSpeed : 2000,
     nav: true,
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     loop: true,
     autoHeight:true,
